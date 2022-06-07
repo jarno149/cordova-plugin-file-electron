@@ -262,4 +262,13 @@ to config.xml in order for the application to find previously stored files.
         </js-module>
     </platform>
 
+    <platform name="electron">
+        <js-module src="www/fileSystemPaths.js" name="fileSystemPaths">
+            <merges target="cordova" />
+            <runs/>
+        </js-module>
+
+        <framework src="src/electron" />
+    </platform>
+
 </plugin>
