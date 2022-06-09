@@ -6,10 +6,8 @@ import { lookup } from 'mime-types'
 
 
 const FILESYSTEMS = {
-    applicationDirectory: join(__dirname, '..', '..', '..', '..', 'platforms', 'electron', 'www'),
-    applicationStorageDirectory: join(__dirname, '..', '..', '..', '..', 'platforms', 'electron', 'www'),
-    cacheDirectory: join(__dirname, 'cache'),
-    dataDirectory: join(__dirname, 'data'),
+    applicationDirectory: './',
+    applicationStorageDirectory: './'
 }
 
 const FileSystem_requestAllPaths = () => {
